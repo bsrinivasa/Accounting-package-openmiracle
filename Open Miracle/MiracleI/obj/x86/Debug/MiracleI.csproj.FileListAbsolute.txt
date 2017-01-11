@@ -1,0 +1,152 @@
+D:\WPF\MiracleI\MiracleI\bin\Debug\MiracleI.exe.config
+D:\WPF\MiracleI\MiracleI\bin\Debug\MiracleI.exe
+D:\WPF\MiracleI\MiracleI\bin\Debug\MiracleI.pdb
+D:\WPF\MiracleI\MiracleI\bin\Debug\Entity.dll
+D:\WPF\MiracleI\MiracleI\bin\Debug\MiracleI.BLL.dll
+D:\WPF\MiracleI\MiracleI\bin\Debug\MiracleIChart.dll
+D:\WPF\MiracleI\MiracleI\bin\Debug\MiracleI.DAL.dll
+D:\WPF\MiracleI\MiracleI\bin\Debug\Entity.pdb
+D:\WPF\MiracleI\MiracleI\bin\Debug\MiracleI.BLL.pdb
+D:\WPF\MiracleI\MiracleI\bin\Debug\MiracleIChart.pdb
+D:\WPF\MiracleI\MiracleI\bin\Debug\MiracleI.DAL.pdb
+D:\WPF\MiracleI\MiracleI\bin\Debug\ru-ru\MiracleIChart.resources.dll
+D:\WPF\MiracleI\MiracleI\obj\x86\Debug\MiracleI.csprojResolveAssemblyReference.cache
+D:\WPF\MiracleI\MiracleI\obj\x86\Debug\Progress.baml
+D:\WPF\MiracleI\MiracleI\obj\x86\Debug\wdoAboutUs.baml
+D:\WPF\MiracleI\MiracleI\obj\x86\Debug\ContactUs.g.cs
+D:\WPF\MiracleI\MiracleI\obj\x86\Debug\MainWindow.g.cs
+D:\WPF\MiracleI\MiracleI\obj\x86\Debug\Progress.g.cs
+D:\WPF\MiracleI\MiracleI\obj\x86\Debug\ProgressBarWindow.g.cs
+D:\WPF\MiracleI\MiracleI\obj\x86\Debug\ScottLogic\PieChart\PieChartLayout.g.cs
+D:\WPF\MiracleI\MiracleI\obj\x86\Debug\ScottLogic\PieChart\PiePlotter.g.cs
+D:\WPF\MiracleI\MiracleI\obj\x86\Debug\Splash.g.cs
+D:\WPF\MiracleI\MiracleI\obj\x86\Debug\wdoAboutUs.g.cs
+D:\WPF\MiracleI\MiracleI\obj\x86\Debug\App.g.cs
+D:\WPF\MiracleI\MiracleI\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+D:\WPF\MiracleI\MiracleI\obj\x86\Debug\MiracleI_MarkupCompile.cache
+D:\WPF\MiracleI\MiracleI\obj\x86\Debug\MiracleI_MarkupCompile.lref
+D:\WPF\MiracleI\MiracleI\obj\x86\Debug\ContactUs.baml
+D:\WPF\MiracleI\MiracleI\obj\x86\Debug\MainWindow.baml
+D:\WPF\MiracleI\MiracleI\obj\x86\Debug\ProgressBarWindow.baml
+D:\WPF\MiracleI\MiracleI\obj\x86\Debug\ScottLogic\PieChart\PieChartLayout.baml
+D:\WPF\MiracleI\MiracleI\obj\x86\Debug\ScottLogic\PieChart\PiePlotter.baml
+D:\WPF\MiracleI\MiracleI\obj\x86\Debug\Splash.baml
+D:\WPF\MiracleI\MiracleI\obj\x86\Debug\MiracleI.g.resources
+D:\WPF\MiracleI\MiracleI\obj\x86\Debug\MiracleI.Properties.Resources.resources
+D:\WPF\MiracleI\MiracleI\obj\x86\Debug\MiracleI.csproj.GenerateResource.Cache
+D:\WPF\MiracleI\MiracleI\obj\x86\Debug\MiracleI.exe
+D:\WPF\MiracleI\MiracleI\obj\x86\Debug\MiracleI.pdb
+E:\My.Net\Open Miracle\Stino\Openmiracle 3.0\Open Miracle\MiracleI\bin\Debug\MiracleI.exe.config
+E:\My.Net\Open Miracle\Stino\Openmiracle 3.0\Open Miracle\MiracleI\bin\Debug\MiracleI.exe
+E:\My.Net\Open Miracle\Stino\Openmiracle 3.0\Open Miracle\MiracleI\bin\Debug\MiracleI.pdb
+E:\My.Net\Open Miracle\Stino\Openmiracle 3.0\Open Miracle\MiracleI\bin\Debug\Entity.dll
+E:\My.Net\Open Miracle\Stino\Openmiracle 3.0\Open Miracle\MiracleI\bin\Debug\MiracleI.BLL.dll
+E:\My.Net\Open Miracle\Stino\Openmiracle 3.0\Open Miracle\MiracleI\bin\Debug\MiracleIChart.dll
+E:\My.Net\Open Miracle\Stino\Openmiracle 3.0\Open Miracle\MiracleI\bin\Debug\MiracleI.DAL.dll
+E:\My.Net\Open Miracle\Stino\Openmiracle 3.0\Open Miracle\MiracleI\bin\Debug\Entity.pdb
+E:\My.Net\Open Miracle\Stino\Openmiracle 3.0\Open Miracle\MiracleI\bin\Debug\MiracleI.BLL.pdb
+E:\My.Net\Open Miracle\Stino\Openmiracle 3.0\Open Miracle\MiracleI\bin\Debug\MiracleIChart.pdb
+E:\My.Net\Open Miracle\Stino\Openmiracle 3.0\Open Miracle\MiracleI\bin\Debug\MiracleI.DAL.pdb
+E:\My.Net\Open Miracle\Stino\Openmiracle 3.0\Open Miracle\MiracleI\bin\Debug\ru-ru\MiracleIChart.resources.dll
+E:\My.Net\Open Miracle\Stino\Openmiracle 3.0\Open Miracle\MiracleI\obj\x86\Debug\MiracleI.csprojResolveAssemblyReference.cache
+E:\My.Net\Open Miracle\Stino\Openmiracle 3.0\Open Miracle\MiracleI\obj\x86\Debug\Progress.baml
+E:\My.Net\Open Miracle\Stino\Openmiracle 3.0\Open Miracle\MiracleI\obj\x86\Debug\wdoAboutUs.baml
+E:\My.Net\Open Miracle\Stino\Openmiracle 3.0\Open Miracle\MiracleI\obj\x86\Debug\ContactUs.g.cs
+E:\My.Net\Open Miracle\Stino\Openmiracle 3.0\Open Miracle\MiracleI\obj\x86\Debug\MainWindow.g.cs
+E:\My.Net\Open Miracle\Stino\Openmiracle 3.0\Open Miracle\MiracleI\obj\x86\Debug\Progress.g.cs
+E:\My.Net\Open Miracle\Stino\Openmiracle 3.0\Open Miracle\MiracleI\obj\x86\Debug\ProgressBarWindow.g.cs
+E:\My.Net\Open Miracle\Stino\Openmiracle 3.0\Open Miracle\MiracleI\obj\x86\Debug\ScottLogic\PieChart\PieChartLayout.g.cs
+E:\My.Net\Open Miracle\Stino\Openmiracle 3.0\Open Miracle\MiracleI\obj\x86\Debug\ScottLogic\PieChart\PiePlotter.g.cs
+E:\My.Net\Open Miracle\Stino\Openmiracle 3.0\Open Miracle\MiracleI\obj\x86\Debug\Splash.g.cs
+E:\My.Net\Open Miracle\Stino\Openmiracle 3.0\Open Miracle\MiracleI\obj\x86\Debug\wdoAboutUs.g.cs
+E:\My.Net\Open Miracle\Stino\Openmiracle 3.0\Open Miracle\MiracleI\obj\x86\Debug\App.g.cs
+E:\My.Net\Open Miracle\Stino\Openmiracle 3.0\Open Miracle\MiracleI\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+E:\My.Net\Open Miracle\Stino\Openmiracle 3.0\Open Miracle\MiracleI\obj\x86\Debug\MiracleI_MarkupCompile.cache
+E:\My.Net\Open Miracle\Stino\Openmiracle 3.0\Open Miracle\MiracleI\obj\x86\Debug\MiracleI_MarkupCompile.lref
+E:\My.Net\Open Miracle\Stino\Openmiracle 3.0\Open Miracle\MiracleI\obj\x86\Debug\ContactUs.baml
+E:\My.Net\Open Miracle\Stino\Openmiracle 3.0\Open Miracle\MiracleI\obj\x86\Debug\MainWindow.baml
+E:\My.Net\Open Miracle\Stino\Openmiracle 3.0\Open Miracle\MiracleI\obj\x86\Debug\ProgressBarWindow.baml
+E:\My.Net\Open Miracle\Stino\Openmiracle 3.0\Open Miracle\MiracleI\obj\x86\Debug\ScottLogic\PieChart\PieChartLayout.baml
+E:\My.Net\Open Miracle\Stino\Openmiracle 3.0\Open Miracle\MiracleI\obj\x86\Debug\ScottLogic\PieChart\PiePlotter.baml
+E:\My.Net\Open Miracle\Stino\Openmiracle 3.0\Open Miracle\MiracleI\obj\x86\Debug\Splash.baml
+E:\My.Net\Open Miracle\Stino\Openmiracle 3.0\Open Miracle\MiracleI\obj\x86\Debug\MiracleI.g.resources
+E:\My.Net\Open Miracle\Stino\Openmiracle 3.0\Open Miracle\MiracleI\obj\x86\Debug\MiracleI.Properties.Resources.resources
+E:\My.Net\Open Miracle\Stino\Openmiracle 3.0\Open Miracle\MiracleI\obj\x86\Debug\MiracleI.csproj.GenerateResource.Cache
+E:\My.Net\Open Miracle\Stino\Openmiracle 3.0\Open Miracle\MiracleI\obj\x86\Debug\MiracleI.exe
+E:\My.Net\Open Miracle\Stino\Openmiracle 3.0\Open Miracle\MiracleI\obj\x86\Debug\MiracleI.pdb
+E:\My.Net\Openmiracle 3.0\Open Miracle\MiracleI\bin\Debug\MiracleI.exe.config
+E:\My.Net\Openmiracle 3.0\Open Miracle\MiracleI\bin\Debug\MiracleI.exe
+E:\My.Net\Openmiracle 3.0\Open Miracle\MiracleI\bin\Debug\MiracleI.pdb
+E:\My.Net\Openmiracle 3.0\Open Miracle\MiracleI\bin\Debug\Entity.dll
+E:\My.Net\Openmiracle 3.0\Open Miracle\MiracleI\bin\Debug\MiracleI.BLL.dll
+E:\My.Net\Openmiracle 3.0\Open Miracle\MiracleI\bin\Debug\MiracleIChart.dll
+E:\My.Net\Openmiracle 3.0\Open Miracle\MiracleI\bin\Debug\MiracleI.DAL.dll
+E:\My.Net\Openmiracle 3.0\Open Miracle\MiracleI\bin\Debug\Entity.pdb
+E:\My.Net\Openmiracle 3.0\Open Miracle\MiracleI\bin\Debug\MiracleI.BLL.pdb
+E:\My.Net\Openmiracle 3.0\Open Miracle\MiracleI\bin\Debug\MiracleIChart.pdb
+E:\My.Net\Openmiracle 3.0\Open Miracle\MiracleI\bin\Debug\MiracleI.DAL.pdb
+E:\My.Net\Openmiracle 3.0\Open Miracle\MiracleI\bin\Debug\ru-ru\MiracleIChart.resources.dll
+E:\My.Net\Openmiracle 3.0\Open Miracle\MiracleI\obj\x86\Debug\MiracleI.csprojResolveAssemblyReference.cache
+E:\My.Net\Openmiracle 3.0\Open Miracle\MiracleI\obj\x86\Debug\Progress.baml
+E:\My.Net\Openmiracle 3.0\Open Miracle\MiracleI\obj\x86\Debug\wdoAboutUs.baml
+E:\My.Net\Openmiracle 3.0\Open Miracle\MiracleI\obj\x86\Debug\ContactUs.g.cs
+E:\My.Net\Openmiracle 3.0\Open Miracle\MiracleI\obj\x86\Debug\MainWindow.g.cs
+E:\My.Net\Openmiracle 3.0\Open Miracle\MiracleI\obj\x86\Debug\Progress.g.cs
+E:\My.Net\Openmiracle 3.0\Open Miracle\MiracleI\obj\x86\Debug\ProgressBarWindow.g.cs
+E:\My.Net\Openmiracle 3.0\Open Miracle\MiracleI\obj\x86\Debug\ScottLogic\PieChart\PieChartLayout.g.cs
+E:\My.Net\Openmiracle 3.0\Open Miracle\MiracleI\obj\x86\Debug\ScottLogic\PieChart\PiePlotter.g.cs
+E:\My.Net\Openmiracle 3.0\Open Miracle\MiracleI\obj\x86\Debug\Splash.g.cs
+E:\My.Net\Openmiracle 3.0\Open Miracle\MiracleI\obj\x86\Debug\wdoAboutUs.g.cs
+E:\My.Net\Openmiracle 3.0\Open Miracle\MiracleI\obj\x86\Debug\App.g.cs
+E:\My.Net\Openmiracle 3.0\Open Miracle\MiracleI\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+E:\My.Net\Openmiracle 3.0\Open Miracle\MiracleI\obj\x86\Debug\MiracleI_MarkupCompile.cache
+E:\My.Net\Openmiracle 3.0\Open Miracle\MiracleI\obj\x86\Debug\MiracleI_MarkupCompile.lref
+E:\My.Net\Openmiracle 3.0\Open Miracle\MiracleI\obj\x86\Debug\ContactUs.baml
+E:\My.Net\Openmiracle 3.0\Open Miracle\MiracleI\obj\x86\Debug\MainWindow.baml
+E:\My.Net\Openmiracle 3.0\Open Miracle\MiracleI\obj\x86\Debug\ProgressBarWindow.baml
+E:\My.Net\Openmiracle 3.0\Open Miracle\MiracleI\obj\x86\Debug\ScottLogic\PieChart\PieChartLayout.baml
+E:\My.Net\Openmiracle 3.0\Open Miracle\MiracleI\obj\x86\Debug\ScottLogic\PieChart\PiePlotter.baml
+E:\My.Net\Openmiracle 3.0\Open Miracle\MiracleI\obj\x86\Debug\Splash.baml
+E:\My.Net\Openmiracle 3.0\Open Miracle\MiracleI\obj\x86\Debug\MiracleI.g.resources
+E:\My.Net\Openmiracle 3.0\Open Miracle\MiracleI\obj\x86\Debug\MiracleI.Properties.Resources.resources
+E:\My.Net\Openmiracle 3.0\Open Miracle\MiracleI\obj\x86\Debug\MiracleI.csproj.GenerateResource.Cache
+E:\My.Net\Openmiracle 3.0\Open Miracle\MiracleI\obj\x86\Debug\MiracleI.exe
+E:\My.Net\Openmiracle 3.0\Open Miracle\MiracleI\obj\x86\Debug\MiracleI.pdb
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleI\bin\Debug\MiracleI.exe.config
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleI\bin\Debug\MiracleI.exe
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleI\bin\Debug\MiracleI.pdb
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleI\bin\Debug\Entity.dll
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleI\bin\Debug\MiracleI.BLL.dll
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleI\bin\Debug\MiracleIChart.dll
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleI\bin\Debug\MiracleI.DAL.dll
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleI\bin\Debug\Entity.pdb
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleI\bin\Debug\MiracleI.BLL.pdb
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleI\bin\Debug\MiracleIChart.pdb
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleI\bin\Debug\MiracleI.DAL.pdb
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleI\bin\Debug\ru-ru\MiracleIChart.resources.dll
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleI\obj\x86\Debug\MiracleI.csprojResolveAssemblyReference.cache
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleI\obj\x86\Debug\Progress.baml
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleI\obj\x86\Debug\wdoAboutUs.baml
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleI\obj\x86\Debug\ContactUs.g.cs
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleI\obj\x86\Debug\MainWindow.g.cs
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleI\obj\x86\Debug\Progress.g.cs
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleI\obj\x86\Debug\ProgressBarWindow.g.cs
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleI\obj\x86\Debug\ScottLogic\PieChart\PieChartLayout.g.cs
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleI\obj\x86\Debug\ScottLogic\PieChart\PiePlotter.g.cs
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleI\obj\x86\Debug\Splash.g.cs
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleI\obj\x86\Debug\wdoAboutUs.g.cs
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleI\obj\x86\Debug\App.g.cs
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleI\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleI\obj\x86\Debug\MiracleI_MarkupCompile.cache
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleI\obj\x86\Debug\MiracleI_MarkupCompile.lref
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleI\obj\x86\Debug\ContactUs.baml
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleI\obj\x86\Debug\MainWindow.baml
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleI\obj\x86\Debug\ProgressBarWindow.baml
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleI\obj\x86\Debug\ScottLogic\PieChart\PieChartLayout.baml
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleI\obj\x86\Debug\ScottLogic\PieChart\PiePlotter.baml
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleI\obj\x86\Debug\Splash.baml
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleI\obj\x86\Debug\MiracleI.g.resources
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleI\obj\x86\Debug\MiracleI.Properties.Resources.resources
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleI\obj\x86\Debug\MiracleI.csproj.GenerateResource.Cache
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleI\obj\x86\Debug\MiracleI.exe
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleI\obj\x86\Debug\MiracleI.pdb

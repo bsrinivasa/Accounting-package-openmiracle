@@ -1,0 +1,125 @@
+D:\MiracleSkate\MiracleSkate\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\MiracleSkate\MiracleSkate\obj\x86\Debug\wdoMiracleSkate.baml
+D:\MiracleSkate\MiracleSkate\obj\x86\Debug\wdoViewData.baml
+D:\MiracleSkate\MiracleSkate\obj\x86\Debug\wdoMiracleSkate.g.cs
+D:\MiracleSkate\MiracleSkate\obj\x86\Debug\wdoViewData.g.cs
+D:\MiracleSkate\MiracleSkate\obj\x86\Debug\App.g.cs
+D:\MiracleSkate\MiracleSkate\obj\x86\Debug\MiracleSkate_MarkupCompile.cache
+D:\MiracleSkate\MiracleSkate\obj\x86\Debug\MiracleSkate.g.resources
+D:\MiracleSkate\MiracleSkate\obj\x86\Debug\MiracleSkate.Properties.Resources.resources
+D:\MiracleSkate\MiracleSkate\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\MiracleSkate\MiracleSkate\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\MiracleSkate\MiracleSkate\bin\Debug\MiracleSkate.exe
+D:\MiracleSkate\MiracleSkate\bin\Debug\MiracleSkate.pdb
+D:\MiracleSkate\MiracleSkate\obj\x86\Debug\MiracleSkate.exe
+D:\MiracleSkate\MiracleSkate\obj\x86\Debug\MiracleSkate.pdb
+D:\MiracleSkate\MiracleSkate\obj\x86\Debug\Resources\GlassButton.baml
+D:\MiracleSkate\MiracleSkate\obj\x86\Debug\wdoLoading.baml
+D:\MiracleSkate\MiracleSkate\obj\x86\Debug\wdoLoginPage.baml
+D:\MiracleSkate\MiracleSkate\obj\x86\Debug\wdoMessageBox.baml
+D:\MiracleSkate\MiracleSkate\obj\x86\Debug\wdoSubMessageBox.baml
+D:\MiracleSkate\MiracleSkate\obj\x86\Debug\wdoLoading.g.cs
+D:\MiracleSkate\MiracleSkate\obj\x86\Debug\wdoLoginPage.g.cs
+D:\MiracleSkate\MiracleSkate\obj\x86\Debug\wdoMessageBox.g.cs
+D:\MiracleSkate\MiracleSkate\obj\x86\Debug\wdoSubMessageBox.g.cs
+\\NSR2\MiracleSkate\MiracleSkate\obj\x86\Debug\MiracleSkate.exe
+\\NSR2\MiracleSkate\MiracleSkate\obj\x86\Debug\MiracleSkate.pdb
+D:\Miracle Skate\MiracleSkate\bin\Debug\MiracleSkate.exe
+D:\Miracle Skate\MiracleSkate\bin\Debug\MiracleSkate.pdb
+D:\Miracle Skate\MiracleSkate\obj\x86\Debug\Resources\GlassButton.baml
+D:\Miracle Skate\MiracleSkate\obj\x86\Debug\wdoMessageBox.baml
+D:\Miracle Skate\MiracleSkate\obj\x86\Debug\wdoMessageBox.g.cs
+D:\Miracle Skate\MiracleSkate\obj\x86\Debug\App.g.cs
+D:\Miracle Skate\MiracleSkate\obj\x86\Debug\MiracleSkate_MarkupCompile.cache
+D:\Miracle Skate\MiracleSkate\obj\x86\Debug\MiracleSkate.g.resources
+D:\Miracle Skate\MiracleSkate\obj\x86\Debug\MiracleSkate.Properties.Resources.resources
+D:\Miracle Skate\MiracleSkate\obj\x86\Debug\MiracleSkate.exe
+D:\Miracle Skate\MiracleSkate\obj\x86\Debug\MiracleSkate.pdb
+E:\Miracle Skate\MiracleSkate\obj\x86\Debug\MiracleSkate.exe
+E:\Miracle Skate\MiracleSkate\obj\x86\Debug\MiracleSkate.pdb
+E:\Miracle Skate\MiracleSkate\bin\Debug\MiracleSkate.exe
+E:\Miracle Skate\MiracleSkate\bin\Debug\MiracleSkate.pdb
+E:\Miracle Skate\MiracleSkate\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Miracle Skate\MiracleSkate\obj\x86\Debug\Resources\GlassButton.baml
+E:\Miracle Skate\MiracleSkate\obj\x86\Debug\wdoLoading.baml
+E:\Miracle Skate\MiracleSkate\obj\x86\Debug\wdoLoginPage.baml
+E:\Miracle Skate\MiracleSkate\obj\x86\Debug\wdoMessageBox.baml
+E:\Miracle Skate\MiracleSkate\obj\x86\Debug\wdoMiracleSkate.baml
+E:\Miracle Skate\MiracleSkate\obj\x86\Debug\wdoSubMessageBox.baml
+E:\Miracle Skate\MiracleSkate\obj\x86\Debug\wdoViewData.baml
+E:\Miracle Skate\MiracleSkate\obj\x86\Debug\wdoLoading.g.cs
+E:\Miracle Skate\MiracleSkate\obj\x86\Debug\wdoLoginPage.g.cs
+E:\Miracle Skate\MiracleSkate\obj\x86\Debug\wdoMessageBox.g.cs
+E:\Miracle Skate\MiracleSkate\obj\x86\Debug\wdoMiracleSkate.g.cs
+E:\Miracle Skate\MiracleSkate\obj\x86\Debug\wdoSubMessageBox.g.cs
+E:\Miracle Skate\MiracleSkate\obj\x86\Debug\wdoViewData.g.cs
+E:\Miracle Skate\MiracleSkate\obj\x86\Debug\App.g.cs
+E:\Miracle Skate\MiracleSkate\obj\x86\Debug\MiracleSkate_MarkupCompile.cache
+E:\Miracle Skate\MiracleSkate\obj\x86\Debug\MiracleSkate.g.resources
+E:\Miracle Skate\MiracleSkate\obj\x86\Debug\MiracleSkate.Properties.Resources.resources
+E:\Miracle Skate\MiracleSkate\obj\x86\Debug\GenerateResource.read.1.tlog
+E:\Miracle Skate\MiracleSkate\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\Miracle Skate\MiracleSkate\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Miracle Skate\MiracleSkate\obj\x86\Debug\DataGrid.baml
+D:\Miracle Skate\MiracleSkate\obj\x86\Debug\LoginUser.baml
+D:\Miracle Skate\MiracleSkate\obj\x86\Debug\MainMenu.baml
+D:\Miracle Skate\MiracleSkate\obj\x86\Debug\DataGrid.g.cs
+D:\Miracle Skate\MiracleSkate\obj\x86\Debug\LoginUser.g.cs
+D:\Miracle Skate\MiracleSkate\obj\x86\Debug\MainMenu.g.cs
+D:\Miracle Skate\MiracleSkate\obj\x86\Debug\Skate.g.cs
+D:\Miracle Skate\MiracleSkate\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Miracle Skate\MiracleSkate\obj\x86\Debug\MiracleSkate_MarkupCompile.lref
+D:\Miracle Skate\MiracleSkate\obj\x86\Debug\Skate.baml
+D:\Miracle Skate\MiracleSkate\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Miracle Skate\MiracleSkate\obj\x86\Debug\GenerateResource.write.1.tlog
+D:\WPF\Miracle Skate\MiracleSkate\bin\Debug\MiracleSkate.exe
+D:\WPF\Miracle Skate\MiracleSkate\bin\Debug\MiracleSkate.pdb
+D:\WPF\Miracle Skate\MiracleSkate\obj\x86\Debug\AboutUs.baml
+D:\WPF\Miracle Skate\MiracleSkate\obj\x86\Debug\ContactUs.baml
+D:\WPF\Miracle Skate\MiracleSkate\obj\x86\Debug\DataGrid.baml
+D:\WPF\Miracle Skate\MiracleSkate\obj\x86\Debug\LoginUser.baml
+D:\WPF\Miracle Skate\MiracleSkate\obj\x86\Debug\MainMenu.baml
+D:\WPF\Miracle Skate\MiracleSkate\obj\x86\Debug\wdoMessageBox.baml
+D:\WPF\Miracle Skate\MiracleSkate\obj\x86\Debug\AboutUs.g.cs
+D:\WPF\Miracle Skate\MiracleSkate\obj\x86\Debug\ContactUs.g.cs
+D:\WPF\Miracle Skate\MiracleSkate\obj\x86\Debug\DataGrid.g.cs
+D:\WPF\Miracle Skate\MiracleSkate\obj\x86\Debug\LoginUser.g.cs
+D:\WPF\Miracle Skate\MiracleSkate\obj\x86\Debug\MainMenu.g.cs
+D:\WPF\Miracle Skate\MiracleSkate\obj\x86\Debug\Skate.g.cs
+D:\WPF\Miracle Skate\MiracleSkate\obj\x86\Debug\wdoMessageBox.g.cs
+D:\WPF\Miracle Skate\MiracleSkate\obj\x86\Debug\App.g.cs
+D:\WPF\Miracle Skate\MiracleSkate\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+D:\WPF\Miracle Skate\MiracleSkate\obj\x86\Debug\MiracleSkate_MarkupCompile.cache
+D:\WPF\Miracle Skate\MiracleSkate\obj\x86\Debug\MiracleSkate_MarkupCompile.lref
+D:\WPF\Miracle Skate\MiracleSkate\obj\x86\Debug\Skate.baml
+D:\WPF\Miracle Skate\MiracleSkate\obj\x86\Debug\MiracleSkate.g.resources
+D:\WPF\Miracle Skate\MiracleSkate\obj\x86\Debug\MiracleSkate.Properties.Resources.resources
+D:\WPF\Miracle Skate\MiracleSkate\obj\x86\Debug\MiracleSkate.csproj.GenerateResource.Cache
+D:\WPF\Miracle Skate\MiracleSkate\obj\x86\Debug\MiracleSkate.exe
+D:\WPF\Miracle Skate\MiracleSkate\obj\x86\Debug\MiracleSkate.pdb
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleSkate\bin\Debug\MiracleSkate.exe
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleSkate\bin\Debug\MiracleSkate.pdb
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleSkate\obj\x86\Debug\MiracleSkate.csprojResolveAssemblyReference.cache
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleSkate\obj\x86\Debug\AboutUs.baml
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleSkate\obj\x86\Debug\ContactUs.baml
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleSkate\obj\x86\Debug\DataGrid.baml
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleSkate\obj\x86\Debug\LoginUser.baml
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleSkate\obj\x86\Debug\MainMenu.baml
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleSkate\obj\x86\Debug\wdoMessageBox.baml
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleSkate\obj\x86\Debug\AboutUs.g.cs
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleSkate\obj\x86\Debug\ContactUs.g.cs
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleSkate\obj\x86\Debug\DataGrid.g.cs
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleSkate\obj\x86\Debug\LoginUser.g.cs
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleSkate\obj\x86\Debug\MainMenu.g.cs
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleSkate\obj\x86\Debug\Skate.g.cs
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleSkate\obj\x86\Debug\wdoMessageBox.g.cs
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleSkate\obj\x86\Debug\App.g.cs
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleSkate\obj\x86\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleSkate\obj\x86\Debug\MiracleSkate_MarkupCompile.cache
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleSkate\obj\x86\Debug\MiracleSkate_MarkupCompile.lref
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleSkate\obj\x86\Debug\Skate.baml
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleSkate\obj\x86\Debug\MiracleSkate.g.resources
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleSkate\obj\x86\Debug\MiracleSkate.Properties.Resources.resources
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleSkate\obj\x86\Debug\MiracleSkate.csproj.GenerateResource.Cache
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleSkate\obj\x86\Debug\MiracleSkate.exe
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleSkate\obj\x86\Debug\MiracleSkate.pdb

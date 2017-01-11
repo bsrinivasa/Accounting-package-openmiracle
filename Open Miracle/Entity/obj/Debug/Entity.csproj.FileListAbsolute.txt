@@ -1,0 +1,8 @@
+D:\WPF\MiracleI\Entity\bin\Debug\Entity.dll
+D:\WPF\MiracleI\Entity\bin\Debug\Entity.pdb
+D:\WPF\MiracleI\Entity\obj\Debug\Entity.dll
+D:\WPF\MiracleI\Entity\obj\Debug\Entity.pdb
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\Entity\bin\Debug\Entity.dll
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\Entity\bin\Debug\Entity.pdb
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\Entity\obj\Debug\Entity.dll
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\Entity\obj\Debug\Entity.pdb

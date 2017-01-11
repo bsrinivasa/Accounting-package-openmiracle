@@ -1,0 +1,27 @@
+D:\WPF\MiracleI\MiracleI.BLL\bin\Debug\MiracleI.BLL.dll
+D:\WPF\MiracleI\MiracleI.BLL\bin\Debug\MiracleI.BLL.pdb
+D:\WPF\MiracleI\MiracleI.BLL\bin\Debug\Entity.dll
+D:\WPF\MiracleI\MiracleI.BLL\bin\Debug\MiracleI.DAL.dll
+D:\WPF\MiracleI\MiracleI.BLL\bin\Debug\Entity.pdb
+D:\WPF\MiracleI\MiracleI.BLL\bin\Debug\MiracleI.DAL.pdb
+D:\WPF\MiracleI\MiracleI.BLL\obj\Debug\MiracleI.BLL.csprojResolveAssemblyReference.cache
+D:\WPF\MiracleI\MiracleI.BLL\obj\Debug\MiracleI.BLL.dll
+D:\WPF\MiracleI\MiracleI.BLL\obj\Debug\MiracleI.BLL.pdb
+E:\My.Net\Open Miracle\Stino\Openmiracle 3.0\Open Miracle\MiracleI.BLL\bin\Debug\MiracleI.BLL.dll
+E:\My.Net\Open Miracle\Stino\Openmiracle 3.0\Open Miracle\MiracleI.BLL\bin\Debug\MiracleI.BLL.pdb
+E:\My.Net\Open Miracle\Stino\Openmiracle 3.0\Open Miracle\MiracleI.BLL\bin\Debug\Entity.dll
+E:\My.Net\Open Miracle\Stino\Openmiracle 3.0\Open Miracle\MiracleI.BLL\bin\Debug\MiracleI.DAL.dll
+E:\My.Net\Open Miracle\Stino\Openmiracle 3.0\Open Miracle\MiracleI.BLL\bin\Debug\Entity.pdb
+E:\My.Net\Open Miracle\Stino\Openmiracle 3.0\Open Miracle\MiracleI.BLL\bin\Debug\MiracleI.DAL.pdb
+E:\My.Net\Open Miracle\Stino\Openmiracle 3.0\Open Miracle\MiracleI.BLL\obj\Debug\MiracleI.BLL.csprojResolveAssemblyReference.cache
+E:\My.Net\Open Miracle\Stino\Openmiracle 3.0\Open Miracle\MiracleI.BLL\obj\Debug\MiracleI.BLL.dll
+E:\My.Net\Open Miracle\Stino\Openmiracle 3.0\Open Miracle\MiracleI.BLL\obj\Debug\MiracleI.BLL.pdb
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleI.BLL\bin\Debug\MiracleI.BLL.dll
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleI.BLL\bin\Debug\MiracleI.BLL.pdb
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleI.BLL\bin\Debug\Entity.dll
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleI.BLL\bin\Debug\MiracleI.DAL.dll
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleI.BLL\bin\Debug\Entity.pdb
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleI.BLL\bin\Debug\MiracleI.DAL.pdb
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleI.BLL\obj\Debug\MiracleI.BLL.csprojResolveAssemblyReference.cache
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleI.BLL\obj\Debug\MiracleI.BLL.dll
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleI.BLL\obj\Debug\MiracleI.BLL.pdb

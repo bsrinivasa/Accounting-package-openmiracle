@@ -1,0 +1,146 @@
+D:\WPF\MiracleI\Debug\bin\MiracleIChart.dll
+D:\WPF\MiracleI\Debug\bin\MiracleIChart.pdb
+D:\WPF\MiracleI\Debug\bin\ru-ru\MiracleIChart.resources.dll
+F:\Openmiracle 3.0\Open Miracle\Debug\bin\MiracleIChart.dll
+F:\Openmiracle 3.0\Open Miracle\Debug\bin\MiracleIChart.pdb
+F:\Openmiracle 3.0\Open Miracle\Debug\bin\ru-ru\MiracleIChart.resources.dll
+D:\Windows\MSSQL+Windows\Openmiracle 3.0\Open Miracle\Debug\bin\MiracleIChart.dll
+D:\Windows\MSSQL+Windows\Openmiracle 3.0\Open Miracle\Debug\bin\MiracleIChart.pdb
+D:\Windows\MSSQL+Windows\Openmiracle 3.0\Open Miracle\Debug\bin\ru-ru\MiracleIChart.resources.dll
+D:\WPF\MiracleI\MiracleIChart\obj\Debug\MiracleIChart.csprojResolveAssemblyReference.cache
+D:\WPF\MiracleI\MiracleIChart\obj\Debug\Charts\MagnifyingGlass.baml
+D:\WPF\MiracleI\MiracleIChart\obj\Debug\MiracleIViewDetails.baml
+D:\WPF\MiracleI\MiracleIChart\obj\Debug\Charts\Isolines\IsolineTrackingGraph.g.cs
+D:\WPF\MiracleI\MiracleIChart\obj\Debug\Charts\Legend.g.cs
+D:\WPF\MiracleI\MiracleIChart\obj\Debug\Charts\LineLegendItem.g.cs
+D:\WPF\MiracleI\MiracleIChart\obj\Debug\Charts\Navigation\AboutWindow.g.cs
+D:\WPF\MiracleI\MiracleIChart\obj\Debug\Charts\Navigation\CursorCoordinateGraph.g.cs
+D:\WPF\MiracleI\MiracleIChart\obj\Debug\Charts\Shapes\DraggablePoint.g.cs
+D:\WPF\MiracleI\MiracleIChart\obj\Debug\Charts\ViewportListView.g.cs
+D:\WPF\MiracleI\MiracleIChart\obj\Debug\Charts\MagnifyingGlass.g.cs
+D:\WPF\MiracleI\MiracleIChart\obj\Debug\MiracleIViewDetails.g.cs
+D:\WPF\MiracleI\MiracleIChart\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\WPF\MiracleI\MiracleIChart\obj\Debug\MiracleIChart_MarkupCompile.cache
+D:\WPF\MiracleI\MiracleIChart\obj\Debug\MiracleIChart_MarkupCompile.lref
+D:\WPF\MiracleI\MiracleIChart\obj\Debug\Charts\Isolines\IsolineTrackingGraph.baml
+D:\WPF\MiracleI\MiracleIChart\obj\Debug\Charts\Legend.baml
+D:\WPF\MiracleI\MiracleIChart\obj\Debug\Charts\LineLegendItem.baml
+D:\WPF\MiracleI\MiracleIChart\obj\Debug\Charts\Axes\AxisControlStyle.baml
+D:\WPF\MiracleI\MiracleIChart\obj\Debug\Charts\Navigation\AboutWindow.baml
+D:\WPF\MiracleI\MiracleIChart\obj\Debug\Charts\Navigation\CursorCoordinateGraph.baml
+D:\WPF\MiracleI\MiracleIChart\obj\Debug\Charts\Shapes\DraggablePoint.baml
+D:\WPF\MiracleI\MiracleIChart\obj\Debug\Charts\Shapes\RangeHighlightStyle.baml
+D:\WPF\MiracleI\MiracleIChart\obj\Debug\Charts\ViewportListView.baml
+D:\WPF\MiracleI\MiracleIChart\obj\Debug\Common\PlotterStyle.baml
+D:\WPF\MiracleI\MiracleIChart\obj\Debug\MiracleIChart.g.resources
+D:\WPF\MiracleI\MiracleIChart\obj\Debug\Openmiracle.MiracleIChart.Properties.Resources.resources
+D:\WPF\MiracleI\MiracleIChart\obj\Debug\Openmiracle.MiracleIChart.Properties.Resources.ru-ru.resources
+D:\WPF\MiracleI\MiracleIChart\obj\Debug\MiracleIChart.csproj.GenerateResource.Cache
+D:\WPF\MiracleI\MiracleIChart\obj\Debug\ru-ru\MiracleIChart.resources.dll
+D:\WPF\MiracleI\MiracleIChart\obj\Debug\MiracleIChart.dll
+D:\WPF\MiracleI\MiracleIChart\obj\Debug\MiracleIChart.pdb
+E:\My.Net\Open Miracle\Stino\Openmiracle 3.0\Open Miracle\Debug\bin\MiracleIChart.dll
+E:\My.Net\Open Miracle\Stino\Openmiracle 3.0\Open Miracle\Debug\bin\MiracleIChart.pdb
+E:\My.Net\Open Miracle\Stino\Openmiracle 3.0\Open Miracle\Debug\bin\ru-ru\MiracleIChart.resources.dll
+E:\My.Net\Open Miracle\Stino\Openmiracle 3.0\Open Miracle\MiracleIChart\obj\Debug\MiracleIChart.csprojResolveAssemblyReference.cache
+E:\My.Net\Open Miracle\Stino\Openmiracle 3.0\Open Miracle\MiracleIChart\obj\Debug\Charts\MagnifyingGlass.baml
+E:\My.Net\Open Miracle\Stino\Openmiracle 3.0\Open Miracle\MiracleIChart\obj\Debug\MiracleIViewDetails.baml
+E:\My.Net\Open Miracle\Stino\Openmiracle 3.0\Open Miracle\MiracleIChart\obj\Debug\Charts\Isolines\IsolineTrackingGraph.g.cs
+E:\My.Net\Open Miracle\Stino\Openmiracle 3.0\Open Miracle\MiracleIChart\obj\Debug\Charts\Legend.g.cs
+E:\My.Net\Open Miracle\Stino\Openmiracle 3.0\Open Miracle\MiracleIChart\obj\Debug\Charts\LineLegendItem.g.cs
+E:\My.Net\Open Miracle\Stino\Openmiracle 3.0\Open Miracle\MiracleIChart\obj\Debug\Charts\Navigation\AboutWindow.g.cs
+E:\My.Net\Open Miracle\Stino\Openmiracle 3.0\Open Miracle\MiracleIChart\obj\Debug\Charts\Navigation\CursorCoordinateGraph.g.cs
+E:\My.Net\Open Miracle\Stino\Openmiracle 3.0\Open Miracle\MiracleIChart\obj\Debug\Charts\Shapes\DraggablePoint.g.cs
+E:\My.Net\Open Miracle\Stino\Openmiracle 3.0\Open Miracle\MiracleIChart\obj\Debug\Charts\ViewportListView.g.cs
+E:\My.Net\Open Miracle\Stino\Openmiracle 3.0\Open Miracle\MiracleIChart\obj\Debug\Charts\MagnifyingGlass.g.cs
+E:\My.Net\Open Miracle\Stino\Openmiracle 3.0\Open Miracle\MiracleIChart\obj\Debug\MiracleIViewDetails.g.cs
+E:\My.Net\Open Miracle\Stino\Openmiracle 3.0\Open Miracle\MiracleIChart\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\My.Net\Open Miracle\Stino\Openmiracle 3.0\Open Miracle\MiracleIChart\obj\Debug\MiracleIChart_MarkupCompile.cache
+E:\My.Net\Open Miracle\Stino\Openmiracle 3.0\Open Miracle\MiracleIChart\obj\Debug\MiracleIChart_MarkupCompile.lref
+E:\My.Net\Open Miracle\Stino\Openmiracle 3.0\Open Miracle\MiracleIChart\obj\Debug\Charts\Isolines\IsolineTrackingGraph.baml
+E:\My.Net\Open Miracle\Stino\Openmiracle 3.0\Open Miracle\MiracleIChart\obj\Debug\Charts\Legend.baml
+E:\My.Net\Open Miracle\Stino\Openmiracle 3.0\Open Miracle\MiracleIChart\obj\Debug\Charts\LineLegendItem.baml
+E:\My.Net\Open Miracle\Stino\Openmiracle 3.0\Open Miracle\MiracleIChart\obj\Debug\Charts\Axes\AxisControlStyle.baml
+E:\My.Net\Open Miracle\Stino\Openmiracle 3.0\Open Miracle\MiracleIChart\obj\Debug\Charts\Navigation\AboutWindow.baml
+E:\My.Net\Open Miracle\Stino\Openmiracle 3.0\Open Miracle\MiracleIChart\obj\Debug\Charts\Navigation\CursorCoordinateGraph.baml
+E:\My.Net\Open Miracle\Stino\Openmiracle 3.0\Open Miracle\MiracleIChart\obj\Debug\Charts\Shapes\DraggablePoint.baml
+E:\My.Net\Open Miracle\Stino\Openmiracle 3.0\Open Miracle\MiracleIChart\obj\Debug\Charts\Shapes\RangeHighlightStyle.baml
+E:\My.Net\Open Miracle\Stino\Openmiracle 3.0\Open Miracle\MiracleIChart\obj\Debug\Charts\ViewportListView.baml
+E:\My.Net\Open Miracle\Stino\Openmiracle 3.0\Open Miracle\MiracleIChart\obj\Debug\Common\PlotterStyle.baml
+E:\My.Net\Open Miracle\Stino\Openmiracle 3.0\Open Miracle\MiracleIChart\obj\Debug\MiracleIChart.g.resources
+E:\My.Net\Open Miracle\Stino\Openmiracle 3.0\Open Miracle\MiracleIChart\obj\Debug\Openmiracle.MiracleIChart.Properties.Resources.resources
+E:\My.Net\Open Miracle\Stino\Openmiracle 3.0\Open Miracle\MiracleIChart\obj\Debug\Openmiracle.MiracleIChart.Properties.Resources.ru-ru.resources
+E:\My.Net\Open Miracle\Stino\Openmiracle 3.0\Open Miracle\MiracleIChart\obj\Debug\MiracleIChart.csproj.GenerateResource.Cache
+E:\My.Net\Open Miracle\Stino\Openmiracle 3.0\Open Miracle\MiracleIChart\obj\Debug\ru-ru\MiracleIChart.resources.dll
+E:\My.Net\Open Miracle\Stino\Openmiracle 3.0\Open Miracle\MiracleIChart\obj\Debug\MiracleIChart.dll
+E:\My.Net\Open Miracle\Stino\Openmiracle 3.0\Open Miracle\MiracleIChart\obj\Debug\MiracleIChart.pdb
+E:\My.Net\Openmiracle 3.0\Open Miracle\Debug\bin\MiracleIChart.dll
+E:\My.Net\Openmiracle 3.0\Open Miracle\Debug\bin\MiracleIChart.pdb
+E:\My.Net\Openmiracle 3.0\Open Miracle\Debug\bin\ru-ru\MiracleIChart.resources.dll
+E:\My.Net\Openmiracle 3.0\Open Miracle\MiracleIChart\obj\Debug\MiracleIChart.csprojResolveAssemblyReference.cache
+E:\My.Net\Openmiracle 3.0\Open Miracle\MiracleIChart\obj\Debug\Charts\MagnifyingGlass.baml
+E:\My.Net\Openmiracle 3.0\Open Miracle\MiracleIChart\obj\Debug\MiracleIViewDetails.baml
+E:\My.Net\Openmiracle 3.0\Open Miracle\MiracleIChart\obj\Debug\Charts\Isolines\IsolineTrackingGraph.g.cs
+E:\My.Net\Openmiracle 3.0\Open Miracle\MiracleIChart\obj\Debug\Charts\Legend.g.cs
+E:\My.Net\Openmiracle 3.0\Open Miracle\MiracleIChart\obj\Debug\Charts\LineLegendItem.g.cs
+E:\My.Net\Openmiracle 3.0\Open Miracle\MiracleIChart\obj\Debug\Charts\Navigation\AboutWindow.g.cs
+E:\My.Net\Openmiracle 3.0\Open Miracle\MiracleIChart\obj\Debug\Charts\Navigation\CursorCoordinateGraph.g.cs
+E:\My.Net\Openmiracle 3.0\Open Miracle\MiracleIChart\obj\Debug\Charts\Shapes\DraggablePoint.g.cs
+E:\My.Net\Openmiracle 3.0\Open Miracle\MiracleIChart\obj\Debug\Charts\ViewportListView.g.cs
+E:\My.Net\Openmiracle 3.0\Open Miracle\MiracleIChart\obj\Debug\Charts\MagnifyingGlass.g.cs
+E:\My.Net\Openmiracle 3.0\Open Miracle\MiracleIChart\obj\Debug\MiracleIViewDetails.g.cs
+E:\My.Net\Openmiracle 3.0\Open Miracle\MiracleIChart\obj\Debug\GeneratedInternalTypeHelper.g.cs
+E:\My.Net\Openmiracle 3.0\Open Miracle\MiracleIChart\obj\Debug\MiracleIChart_MarkupCompile.cache
+E:\My.Net\Openmiracle 3.0\Open Miracle\MiracleIChart\obj\Debug\MiracleIChart_MarkupCompile.lref
+E:\My.Net\Openmiracle 3.0\Open Miracle\MiracleIChart\obj\Debug\Charts\Isolines\IsolineTrackingGraph.baml
+E:\My.Net\Openmiracle 3.0\Open Miracle\MiracleIChart\obj\Debug\Charts\Legend.baml
+E:\My.Net\Openmiracle 3.0\Open Miracle\MiracleIChart\obj\Debug\Charts\LineLegendItem.baml
+E:\My.Net\Openmiracle 3.0\Open Miracle\MiracleIChart\obj\Debug\Charts\Axes\AxisControlStyle.baml
+E:\My.Net\Openmiracle 3.0\Open Miracle\MiracleIChart\obj\Debug\Charts\Navigation\AboutWindow.baml
+E:\My.Net\Openmiracle 3.0\Open Miracle\MiracleIChart\obj\Debug\Charts\Navigation\CursorCoordinateGraph.baml
+E:\My.Net\Openmiracle 3.0\Open Miracle\MiracleIChart\obj\Debug\Charts\Shapes\DraggablePoint.baml
+E:\My.Net\Openmiracle 3.0\Open Miracle\MiracleIChart\obj\Debug\Charts\Shapes\RangeHighlightStyle.baml
+E:\My.Net\Openmiracle 3.0\Open Miracle\MiracleIChart\obj\Debug\Charts\ViewportListView.baml
+E:\My.Net\Openmiracle 3.0\Open Miracle\MiracleIChart\obj\Debug\Common\PlotterStyle.baml
+E:\My.Net\Openmiracle 3.0\Open Miracle\MiracleIChart\obj\Debug\MiracleIChart.g.resources
+E:\My.Net\Openmiracle 3.0\Open Miracle\MiracleIChart\obj\Debug\Openmiracle.MiracleIChart.Properties.Resources.resources
+E:\My.Net\Openmiracle 3.0\Open Miracle\MiracleIChart\obj\Debug\Openmiracle.MiracleIChart.Properties.Resources.ru-ru.resources
+E:\My.Net\Openmiracle 3.0\Open Miracle\MiracleIChart\obj\Debug\MiracleIChart.csproj.GenerateResource.Cache
+E:\My.Net\Openmiracle 3.0\Open Miracle\MiracleIChart\obj\Debug\ru-ru\MiracleIChart.resources.dll
+E:\My.Net\Openmiracle 3.0\Open Miracle\MiracleIChart\obj\Debug\MiracleIChart.dll
+E:\My.Net\Openmiracle 3.0\Open Miracle\MiracleIChart\obj\Debug\MiracleIChart.pdb
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\Debug\bin\MiracleIChart.dll
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\Debug\bin\MiracleIChart.pdb
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\Debug\bin\ru-ru\MiracleIChart.resources.dll
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleIChart\obj\Debug\MiracleIChart.csprojResolveAssemblyReference.cache
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleIChart\obj\Debug\Charts\MagnifyingGlass.baml
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleIChart\obj\Debug\MiracleIViewDetails.baml
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleIChart\obj\Debug\Charts\Isolines\IsolineTrackingGraph.g.cs
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleIChart\obj\Debug\Charts\Legend.g.cs
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleIChart\obj\Debug\Charts\LineLegendItem.g.cs
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleIChart\obj\Debug\Charts\Navigation\AboutWindow.g.cs
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleIChart\obj\Debug\Charts\Navigation\CursorCoordinateGraph.g.cs
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleIChart\obj\Debug\Charts\Shapes\DraggablePoint.g.cs
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleIChart\obj\Debug\Charts\ViewportListView.g.cs
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleIChart\obj\Debug\Charts\MagnifyingGlass.g.cs
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleIChart\obj\Debug\MiracleIViewDetails.g.cs
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleIChart\obj\Debug\GeneratedInternalTypeHelper.g.cs
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleIChart\obj\Debug\MiracleIChart_MarkupCompile.cache
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleIChart\obj\Debug\MiracleIChart_MarkupCompile.lref
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleIChart\obj\Debug\Charts\Isolines\IsolineTrackingGraph.baml
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleIChart\obj\Debug\Charts\Legend.baml
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleIChart\obj\Debug\Charts\LineLegendItem.baml
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleIChart\obj\Debug\Charts\Axes\AxisControlStyle.baml
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleIChart\obj\Debug\Charts\Navigation\AboutWindow.baml
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleIChart\obj\Debug\Charts\Navigation\CursorCoordinateGraph.baml
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleIChart\obj\Debug\Charts\Shapes\DraggablePoint.baml
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleIChart\obj\Debug\Charts\Shapes\RangeHighlightStyle.baml
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleIChart\obj\Debug\Charts\ViewportListView.baml
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleIChart\obj\Debug\Common\PlotterStyle.baml
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleIChart\obj\Debug\MiracleIChart.g.resources
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleIChart\obj\Debug\Openmiracle.MiracleIChart.Properties.Resources.resources
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleIChart\obj\Debug\Openmiracle.MiracleIChart.Properties.Resources.ru-ru.resources
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleIChart\obj\Debug\MiracleIChart.csproj.GenerateResource.Cache
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleIChart\obj\Debug\ru-ru\MiracleIChart.resources.dll
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleIChart\obj\Debug\MiracleIChart.dll
+D:\Personal\SAP\Open Miracle\OpenMiracle V-3.0.0\Open Miracle\MiracleIChart\obj\Debug\MiracleIChart.pdb
