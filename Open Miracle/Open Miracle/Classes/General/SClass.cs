@@ -46,9 +46,10 @@ namespace Open_Miracle
                 }
                 else
                 {
-                    //sqlcon = new SqlConnection(@"Data Source=" + serverName + ";AttachDbFilename=" + ApplicationPath + "\\Data\\DBOpenmiracle.mdf" + ";user id='" + userId + "';password='" + password + "'; Connect Timeout=30; User Instance=False");
-                    
-                    sqlcon = new SqlConnection("Server=10.160.108.103\\SQLEXPRESS;Database=SAPDB;User Id=sa; Password = Letmein;");
+                    sqlcon = new SqlConnection(@"Data Source=" + serverName + ";AttachDbFilename=" + ApplicationPath + "\\Data\\DBOpenmiracle.mdf" + ";user id='" + userId + "';password='" + password + "'; Connect Timeout=30; User Instance=False");
+
+                    //[HSS]: Debug Connection.
+                    //sqlcon = new SqlConnection("Server=10.160.108.103\\SQLEXPRESS;Database=SAPDB;User Id=sa; Password = Letmein;");
                 }
                 try
                 {

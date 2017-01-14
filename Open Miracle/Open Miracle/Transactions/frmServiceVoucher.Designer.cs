@@ -83,7 +83,17 @@
             this.cmbCurrency = new System.Windows.Forms.ComboBox();
             this.lblCurrency = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
+            this.panelServiceVoucherDefault = new System.Windows.Forms.Panel();
+            this.panelPMCVoucherType = new System.Windows.Forms.Panel();
+            this.txtAmount = new System.Windows.Forms.TextBox();
+            this.txtQuantity = new System.Windows.Forms.TextBox();
+            this.cmbParticulars = new System.Windows.Forms.ComboBox();
+            this.lblAmount = new System.Windows.Forms.Label();
+            this.lblQuantity = new System.Windows.Forms.Label();
+            this.lblParticulars = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dgvServiceVoucher)).BeginInit();
+            this.panelServiceVoucherDefault.SuspendLayout();
+            this.panelPMCVoucherType.SuspendLayout();
             this.SuspendLayout();
             // 
             // lklblRemove
@@ -91,7 +101,7 @@
             this.lklblRemove.ActiveLinkColor = System.Drawing.Color.Brown;
             this.lklblRemove.AutoSize = true;
             this.lklblRemove.LinkColor = System.Drawing.Color.Brown;
-            this.lklblRemove.Location = new System.Drawing.Point(735, 423);
+            this.lklblRemove.Location = new System.Drawing.Point(720, 302);
             this.lklblRemove.Margin = new System.Windows.Forms.Padding(5);
             this.lklblRemove.Name = "lklblRemove";
             this.lklblRemove.Size = new System.Drawing.Size(47, 13);
@@ -110,7 +120,7 @@
             this.btnClose.Location = new System.Drawing.Point(692, 519);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(85, 27);
-            this.btnClose.TabIndex = 17;
+            this.btnClose.TabIndex = 19;
             this.btnClose.Text = "Close";
             this.btnClose.UseVisualStyleBackColor = false;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
@@ -124,7 +134,7 @@
             this.btnDelete.Location = new System.Drawing.Point(601, 519);
             this.btnDelete.Name = "btnDelete";
             this.btnDelete.Size = new System.Drawing.Size(85, 27);
-            this.btnDelete.TabIndex = 16;
+            this.btnDelete.TabIndex = 18;
             this.btnDelete.Text = "Delete";
             this.btnDelete.UseVisualStyleBackColor = false;
             this.btnDelete.Click += new System.EventHandler(this.btnDelete_Click);
@@ -138,7 +148,7 @@
             this.btnClear.Location = new System.Drawing.Point(510, 519);
             this.btnClear.Name = "btnClear";
             this.btnClear.Size = new System.Drawing.Size(85, 27);
-            this.btnClear.TabIndex = 15;
+            this.btnClear.TabIndex = 17;
             this.btnClear.Text = "Clear";
             this.btnClear.UseVisualStyleBackColor = false;
             this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
@@ -152,7 +162,7 @@
             this.btnSave.Location = new System.Drawing.Point(419, 519);
             this.btnSave.Name = "btnSave";
             this.btnSave.Size = new System.Drawing.Size(85, 27);
-            this.btnSave.TabIndex = 14;
+            this.btnSave.TabIndex = 16;
             this.btnSave.Text = "Save";
             this.btnSave.UseVisualStyleBackColor = false;
             this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
@@ -202,7 +212,7 @@
             this.dgvServiceVoucher.DefaultCellStyle = dataGridViewCellStyle5;
             this.dgvServiceVoucher.EnableHeadersVisualStyles = false;
             this.dgvServiceVoucher.GridColor = System.Drawing.Color.DimGray;
-            this.dgvServiceVoucher.Location = new System.Drawing.Point(18, 119);
+            this.dgvServiceVoucher.Location = new System.Drawing.Point(7, 4);
             this.dgvServiceVoucher.Margin = new System.Windows.Forms.Padding(3, 3, 3, 0);
             this.dgvServiceVoucher.Name = "dgvServiceVoucher";
             this.dgvServiceVoucher.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
@@ -430,7 +440,7 @@
             // lblNarration
             // 
             this.lblNarration.ForeColor = System.Drawing.Color.Black;
-            this.lblNarration.Location = new System.Drawing.Point(14, 430);
+            this.lblNarration.Location = new System.Drawing.Point(14, 437);
             this.lblNarration.Margin = new System.Windows.Forms.Padding(5);
             this.lblNarration.Name = "lblNarration";
             this.lblNarration.Size = new System.Drawing.Size(100, 20);
@@ -439,13 +449,13 @@
             // 
             // txtNarration
             // 
-            this.txtNarration.Location = new System.Drawing.Point(123, 430);
+            this.txtNarration.Location = new System.Drawing.Point(123, 435);
             this.txtNarration.Margin = new System.Windows.Forms.Padding(5);
             this.txtNarration.MaxLength = 5000;
             this.txtNarration.Multiline = true;
             this.txtNarration.Name = "txtNarration";
             this.txtNarration.Size = new System.Drawing.Size(209, 65);
-            this.txtNarration.TabIndex = 11;
+            this.txtNarration.TabIndex = 14;
             this.txtNarration.KeyDown += new System.Windows.Forms.KeyEventHandler(this.txtNarration_KeyDown);
             // 
             // cbxPrintAfterSave
@@ -457,7 +467,8 @@
             this.cbxPrintAfterSave.Margin = new System.Windows.Forms.Padding(5);
             this.cbxPrintAfterSave.Name = "cbxPrintAfterSave";
             this.cbxPrintAfterSave.Size = new System.Drawing.Size(97, 17);
-            this.cbxPrintAfterSave.TabIndex = 13;
+            this.cbxPrintAfterSave.TabIndex = 139912;
+            this.cbxPrintAfterSave.TabStop = false;
             this.cbxPrintAfterSave.Text = "Print after save";
             this.cbxPrintAfterSave.UseVisualStyleBackColor = false;
             // 
@@ -489,7 +500,7 @@
             this.txtDiscount.MaxLength = 13;
             this.txtDiscount.Name = "txtDiscount";
             this.txtDiscount.Size = new System.Drawing.Size(200, 20);
-            this.txtDiscount.TabIndex = 12;
+            this.txtDiscount.TabIndex = 15;
             this.txtDiscount.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             this.txtDiscount.TextChanged += new System.EventHandler(this.txtDiscount_TextChanged);
             this.txtDiscount.Enter += new System.EventHandler(this.txtDiscount_Enter);
@@ -662,12 +673,89 @@
             this.label5.TabIndex = 325325;
             this.label5.Text = "*";
             // 
+            // panelServiceVoucherDefault
+            // 
+            this.panelServiceVoucherDefault.Controls.Add(this.dgvServiceVoucher);
+            this.panelServiceVoucherDefault.Controls.Add(this.lklblRemove);
+            this.panelServiceVoucherDefault.Location = new System.Drawing.Point(11, 116);
+            this.panelServiceVoucherDefault.Name = "panelServiceVoucherDefault";
+            this.panelServiceVoucherDefault.Size = new System.Drawing.Size(782, 317);
+            this.panelServiceVoucherDefault.TabIndex = 574575;
+            // 
+            // panelPMCVoucherType
+            // 
+            this.panelPMCVoucherType.Controls.Add(this.txtAmount);
+            this.panelPMCVoucherType.Controls.Add(this.txtQuantity);
+            this.panelPMCVoucherType.Controls.Add(this.cmbParticulars);
+            this.panelPMCVoucherType.Controls.Add(this.lblAmount);
+            this.panelPMCVoucherType.Controls.Add(this.lblQuantity);
+            this.panelPMCVoucherType.Controls.Add(this.lblParticulars);
+            this.panelPMCVoucherType.Location = new System.Drawing.Point(12, 117);
+            this.panelPMCVoucherType.Name = "panelPMCVoucherType";
+            this.panelPMCVoucherType.Size = new System.Drawing.Size(359, 315);
+            this.panelPMCVoucherType.TabIndex = 574576;
+            // 
+            // txtAmount
+            // 
+            this.txtAmount.Location = new System.Drawing.Point(114, 72);
+            this.txtAmount.Name = "txtAmount";
+            this.txtAmount.Size = new System.Drawing.Size(202, 20);
+            this.txtAmount.TabIndex = 12;
+            this.txtAmount.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtAmount_KeyPress);
+            this.txtAmount.Leave += new System.EventHandler(this.txtAmount_Leave);
+            // 
+            // txtQuantity
+            // 
+            this.txtQuantity.Location = new System.Drawing.Point(114, 41);
+            this.txtQuantity.Name = "txtQuantity";
+            this.txtQuantity.Size = new System.Drawing.Size(200, 20);
+            this.txtQuantity.TabIndex = 11;
+            this.txtQuantity.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtQuantity_KeyPress);
+            this.txtQuantity.Leave += new System.EventHandler(this.txtQuantity_Leave);
+            // 
+            // cmbParticulars
+            // 
+            this.cmbParticulars.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbParticulars.FormattingEnabled = true;
+            this.cmbParticulars.Location = new System.Drawing.Point(114, 10);
+            this.cmbParticulars.Name = "cmbParticulars";
+            this.cmbParticulars.Size = new System.Drawing.Size(200, 21);
+            this.cmbParticulars.TabIndex = 10;
+            // 
+            // lblAmount
+            // 
+            this.lblAmount.AutoSize = true;
+            this.lblAmount.Location = new System.Drawing.Point(4, 75);
+            this.lblAmount.Name = "lblAmount";
+            this.lblAmount.Size = new System.Drawing.Size(46, 13);
+            this.lblAmount.TabIndex = 2;
+            this.lblAmount.Text = "Amount:";
+            // 
+            // lblQuantity
+            // 
+            this.lblQuantity.AutoSize = true;
+            this.lblQuantity.Location = new System.Drawing.Point(4, 44);
+            this.lblQuantity.Name = "lblQuantity";
+            this.lblQuantity.Size = new System.Drawing.Size(49, 13);
+            this.lblQuantity.TabIndex = 1;
+            this.lblQuantity.Text = "Quantity:";
+            // 
+            // lblParticulars
+            // 
+            this.lblParticulars.AutoSize = true;
+            this.lblParticulars.Location = new System.Drawing.Point(4, 13);
+            this.lblParticulars.Name = "lblParticulars";
+            this.lblParticulars.Size = new System.Drawing.Size(59, 13);
+            this.lblParticulars.TabIndex = 0;
+            this.lblParticulars.Text = "Particulars:";
+            // 
             // frmServiceVoucher
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Gainsboro;
-            this.ClientSize = new System.Drawing.Size(800, 561);
+            this.ClientSize = new System.Drawing.Size(798, 561);
+            this.Controls.Add(this.panelPMCVoucherType);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.lblCurrency);
             this.Controls.Add(this.cmbCurrency);
@@ -701,13 +789,12 @@
             this.Controls.Add(this.lblServiceAC);
             this.Controls.Add(this.cmbCashParty);
             this.Controls.Add(this.lblCashParty);
-            this.Controls.Add(this.lklblRemove);
             this.Controls.Add(this.btnClose);
             this.Controls.Add(this.btnDelete);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.btnSave);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.dgvServiceVoucher);
+            this.Controls.Add(this.panelServiceVoucherDefault);
             this.ForeColor = System.Drawing.Color.Black;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
@@ -721,6 +808,10 @@
             this.Load += new System.EventHandler(this.frmServiceVoucher_Load);
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.frmServiceVoucher_KeyDown);
             ((System.ComponentModel.ISupportInitialize)(this.dgvServiceVoucher)).EndInit();
+            this.panelServiceVoucherDefault.ResumeLayout(false);
+            this.panelServiceVoucherDefault.PerformLayout();
+            this.panelPMCVoucherType.ResumeLayout(false);
+            this.panelPMCVoucherType.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -776,5 +867,13 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn dgvtxtDetailsId;
         private System.Windows.Forms.DataGridViewTextBoxColumn dgvtxtServiceMasterId;
         private System.Windows.Forms.DataGridViewTextBoxColumn dgvtxtAmount;
+        private System.Windows.Forms.Panel panelServiceVoucherDefault;
+        private System.Windows.Forms.Panel panelPMCVoucherType;
+        private System.Windows.Forms.TextBox txtAmount;
+        private System.Windows.Forms.TextBox txtQuantity;
+        private System.Windows.Forms.ComboBox cmbParticulars;
+        private System.Windows.Forms.Label lblAmount;
+        private System.Windows.Forms.Label lblQuantity;
+        private System.Windows.Forms.Label lblParticulars;
     }
 }

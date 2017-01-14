@@ -65,7 +65,10 @@ namespace Open_Miracle
         frmAgeingReport frmAgeingObj = null;                                 //  To use in call from frmAgeing
         frmVoucherSearch objVoucherSearch = null;                               //To use in call from VoucherSearch
         frmLedgerDetails frmLedgerDetailsObj = null;
+        const string PMC_ServiceVoucherType = "Paddy Milling Charges";
+        string VoucherType;
         #endregion
+
         #region Function
         /// <summary>
         /// Create instance of frmServiceVoucher
@@ -225,12 +228,56 @@ namespace Open_Miracle
                 btnDelete.Enabled = false;
                 btnSave.Text = "Save";
                 dgvServiceVoucher.Rows.Clear();
+
+                //[HSS]: Added for PMC Voucher Type
+                if (this.VoucherType == PMC_ServiceVoucherType)
+                {
+                    txtQuantity.Clear();
+                    ResetAmount();
+                    txtQuantity.Focus();
+                }                
             }
             catch (Exception ex)
             {
                 formMDI.infoError.ErrorString = "SV4:" + ex.Message;
             }
         }
+
+        /// <summary>
+        /// Fill amount in corresponding textbox.
+        /// </summary>
+        //[HSS]: Added for PMC Voucher Type.
+        private void ResetAmount()
+        {
+            ServiceSP spService = new ServiceSP();
+            ServiceInfo infoService = new ServiceInfo();
+            decimal decRate = 0;
+
+            decimal serviceId;
+            var selectedParticular = cmbParticulars.SelectedValue;
+            if (selectedParticular != null)
+            {
+                serviceId = decimal.Parse(selectedParticular.ToString());
+
+                infoService = spService.ServiceViewForRate(serviceId);
+
+                decRate = infoService.Rate;
+
+                txtAmount.Clear();
+
+                if (string.IsNullOrEmpty(txtQuantity.Text))
+                {
+                    txtAmount.Text = decRate.ToString();
+                }
+                else
+                {
+                    decimal d_quantity = decimal.Parse(txtQuantity.Text);
+                    decimal d_amount = d_quantity * decRate;
+                    txtAmount.Text = d_amount.ToString();
+                }
+            }
+        }
+
         /// <summary>
         /// Function to set the voucherdate
         /// </summary>
@@ -270,9 +317,11 @@ namespace Open_Miracle
                 cmbSalesman.DisplayMember = "employeeName";
                 cmbSalesman.ValueMember = "employeeId";
                 cmbSalesman.SelectedValue = -1;
-                if (cmbSalesman.Items.Count > 0)
+
+                //[HSS]: Added to fill 'NA' value by default.
+                if (this.VoucherType == PMC_ServiceVoucherType && cmbSalesman.Items.Count > 0)
                 {
-                    cmbSalesman.SelectedValue = 0;
+                    cmbSalesman.SelectedIndex = 0;
                 }                
             }
             catch (Exception ex)
@@ -294,6 +343,15 @@ namespace Open_Miracle
                 cmbServiceAC.DisplayMember = "ledgerName";
                 cmbServiceAC.ValueMember = "ledgerId";
                 cmbServiceAC.SelectedText = "Service Account";
+
+                //[HSS]: Added to fill Paddy Milling Charges by default.
+                if (this.VoucherType == PMC_ServiceVoucherType)
+                {
+                    if (cmbServiceAC.Items != null && cmbServiceAC.Items.Count >= 5)
+                    {
+                        cmbServiceAC.SelectedIndex = 4;
+                    }
+                }
             }
             catch (Exception ex)
             {
@@ -359,6 +417,39 @@ namespace Open_Miracle
                 dgvcmbParticulars.DataSource = dtbl;
                 dgvcmbParticulars.DisplayMember = "serviceName";
                 dgvcmbParticulars.ValueMember = "serviceId";
+
+                //[HSS]: Added
+                if (this.VoucherType == PMC_ServiceVoucherType)
+                {
+                    List<Particulars> lstParticulars = new List<Open_Miracle.Particulars>();
+                    Particulars particulars;
+
+                    if (dtbl != null && dtbl.Rows != null && dtbl.Rows.Count > 0)
+                    {
+                        foreach (DataRow row in dtbl.Rows)
+                        {
+                            particulars = new Open_Miracle.Particulars();
+                            particulars.SerialNumber = decimal.Parse(row.ItemArray[0].ToString());
+                            particulars.ServiceId = decimal.Parse(row.ItemArray[1].ToString());
+                            particulars.ServiceName = row.ItemArray[2].ToString();
+                            particulars.CategoryId = decimal.Parse(row.ItemArray[3].ToString());
+                            particulars.Rate = decimal.Parse(row.ItemArray[4].ToString());
+                            particulars.Narration = row.ItemArray[5].ToString();
+
+                            lstParticulars.Add(particulars);
+                        }
+                    }
+
+                    cmbParticulars.DataSource = lstParticulars;
+                    cmbParticulars.ValueMember = "ServiceId";
+                    cmbParticulars.DisplayMember = "ServiceName";
+
+                    if (cmbParticulars.Items != null && cmbParticulars.Items.Count > 0)
+                    {
+                        cmbParticulars.SelectedIndex = 0;
+                    }
+                }
+                //[HSS]: End
             }
             catch (Exception ex)
             {
@@ -428,6 +519,7 @@ namespace Open_Miracle
                 strPrefix = infoSuffixPrefix.Prefix;
                 strSuffix = infoSuffixPrefix.Suffix;
                 this.Text = strServiceVoucherTypeName;
+                this.VoucherType = strServiceVoucherTypeName;
                 base.Show();
             }
             catch (Exception ex)
@@ -526,13 +618,22 @@ namespace Open_Miracle
                 decimal decTotalAmount = 0;
                 decimal decGrandTotal = 0;
                 decimal decDiscount = 0;
-                foreach (DataGridViewRow dgvrow in dgvServiceVoucher.Rows)
+
+                //[HSS]: Added condition for PMC Voucher type.
+                if (this.VoucherType == PMC_ServiceVoucherType)
                 {
-                    if (dgvrow.Cells["dgvtxtAmount"].Value != null)
+                    decTotalAmount = string.IsNullOrEmpty(txtAmount.Text) ? 0 : decimal.Parse(txtAmount.Text);
+                }
+                else //Default voucher type.
+                {
+                    foreach (DataGridViewRow dgvrow in dgvServiceVoucher.Rows)
                     {
-                        if (dgvrow.Cells["dgvtxtAmount"].Value.ToString() != "")
+                        if (dgvrow.Cells["dgvtxtAmount"].Value != null)
                         {
-                            decTotalAmount = decTotalAmount + decimal.Parse(dgvrow.Cells["dgvtxtAmount"].Value.ToString());
+                            if (dgvrow.Cells["dgvtxtAmount"].Value.ToString() != "")
+                            {
+                                decTotalAmount = decTotalAmount + decimal.Parse(dgvrow.Cells["dgvtxtAmount"].Value.ToString());
+                            }
                         }
                     }
                 }
@@ -661,13 +762,26 @@ namespace Open_Miracle
                 ExchangeRateSP spExchangeRate = new ExchangeRateSP();
                 int inRowCount = dgvServiceVoucher.RowCount;
                 int inValue = 0;
-                for (int ini = 0; ini < inRowCount - 1; ini++)
+
+                //[HSS]: Added condition for PMC Voucher type.
+                if (this.VoucherType == PMC_ServiceVoucherType)
                 {
-                    if (dgvServiceVoucher.Rows[ini].Cells["dgvcmbParticulars"].Value != null && dgvServiceVoucher.Rows[ini].Cells["dgvcmbParticulars"].Value.ToString() != string.Empty)
+                    if (cmbParticulars.SelectedValue != null && !string.IsNullOrEmpty(cmbParticulars.SelectedValue.ToString()))
                     {
-                        inValue++;
+                        inValue = 1;
                     }
                 }
+                else //For default voucher type.
+                {
+                    for (int ini = 0; ini < inRowCount - 1; ini++)
+                    {
+                        if (dgvServiceVoucher.Rows[ini].Cells["dgvcmbParticulars"].Value != null && dgvServiceVoucher.Rows[ini].Cells["dgvcmbParticulars"].Value.ToString() != string.Empty)
+                        {
+                            inValue++;
+                        }
+                    }
+                }
+
                 if (inValue > 0)
                 {
                     txtDiscount.Enabled = true;
@@ -704,22 +818,39 @@ namespace Open_Miracle
                     infoServiceDetails.Extra1 = string.Empty;
                     infoServiceDetails.Extra2 = string.Empty;
                     infoServiceDetails.ExtraDate = PublicVariables._dtCurrentDate;
-                    for (int i = 0; i < inRowCount - 1; i++)
+
+                    //[HSS]: Added confition for PMC Voucher type.
+                    if (this.VoucherType == PMC_ServiceVoucherType)
                     {
-                        if (dgvServiceVoucher.Rows[i].Cells["dgvcmbParticulars"].Value != null && dgvServiceVoucher.Rows[i].Cells["dgvcmbParticulars"].Value.ToString() != string.Empty)
+                        if (cmbParticulars.SelectedItem != null)
                         {
-                            infoServiceDetails.ServiceId = Convert.ToDecimal(dgvServiceVoucher.Rows[i].Cells["dgvcmbParticulars"].Value.ToString());
+                            Particulars selectedParticulars = cmbParticulars.SelectedItem as Particulars;
+                            infoServiceDetails.ServiceId = selectedParticulars.ServiceId;
+                            infoServiceDetails.Measure = txtQuantity.Text;
+                            infoServiceDetails.Amount = Convert.ToDecimal(txtAmount.Text);
+                            decAmount = infoServiceDetails.Amount;
+                            decServiceDetailsId = spServiceDetails.ServiceDetailsAddReturnWithIdentity(infoServiceDetails);
                         }
-                        if (dgvServiceVoucher.Rows[i].Cells["dgvtxtMeasure"].Value != null && dgvServiceVoucher.Rows[i].Cells["dgvtxtMeasure"].Value.ToString() != string.Empty)
+                    }
+                    else //For default voucher type.
+                    {
+                        for (int i = 0; i < inRowCount - 1; i++)
                         {
-                            infoServiceDetails.Measure = dgvServiceVoucher.Rows[i].Cells["dgvtxtMeasure"].Value.ToString();
+                            if (dgvServiceVoucher.Rows[i].Cells["dgvcmbParticulars"].Value != null && dgvServiceVoucher.Rows[i].Cells["dgvcmbParticulars"].Value.ToString() != string.Empty)
+                            {
+                                infoServiceDetails.ServiceId = Convert.ToDecimal(dgvServiceVoucher.Rows[i].Cells["dgvcmbParticulars"].Value.ToString());
+                            }
+                            if (dgvServiceVoucher.Rows[i].Cells["dgvtxtMeasure"].Value != null && dgvServiceVoucher.Rows[i].Cells["dgvtxtMeasure"].Value.ToString() != string.Empty)
+                            {
+                                infoServiceDetails.Measure = dgvServiceVoucher.Rows[i].Cells["dgvtxtMeasure"].Value.ToString();
+                            }
+                            if (dgvServiceVoucher.Rows[i].Cells["dgvtxtAmount"].Value != null && dgvServiceVoucher.Rows[i].Cells["dgvtxtAmount"].Value.ToString() != string.Empty)
+                            {
+                                infoServiceDetails.Amount = Convert.ToDecimal(dgvServiceVoucher.Rows[i].Cells["dgvtxtAmount"].Value.ToString());
+                                decAmount += Convert.ToDecimal(dgvServiceVoucher.Rows[i].Cells["dgvtxtAmount"].Value);
+                            }
+                            decServiceDetailsId = spServiceDetails.ServiceDetailsAddReturnWithIdentity(infoServiceDetails);
                         }
-                        if (dgvServiceVoucher.Rows[i].Cells["dgvtxtAmount"].Value != null && dgvServiceVoucher.Rows[i].Cells["dgvtxtAmount"].Value.ToString() != string.Empty)
-                        {
-                            infoServiceDetails.Amount = Convert.ToDecimal(dgvServiceVoucher.Rows[i].Cells["dgvtxtAmount"].Value.ToString());
-                            decAmount += Convert.ToDecimal(dgvServiceVoucher.Rows[i].Cells["dgvtxtAmount"].Value);
-                        }
-                        decServiceDetailsId = spServiceDetails.ServiceDetailsAddReturnWithIdentity(infoServiceDetails);
                     }
                     decSelectedCurrencyRate = spExchangeRate.GetExchangeRateByExchangeRateId(infoServiceMaster.ExchangeRateId);
                     decConvertRate = decAmount * decSelectedCurrencyRate;
@@ -751,7 +882,13 @@ namespace Open_Miracle
                         infoPartyBalance.Extra2 = string.Empty;
                         spPartyBalance.PartyBalanceAdd(infoPartyBalance);
                     }
-                    Messages.SavedMessage();
+
+                    //[HSS]: Added condtion to remove message box for PMC Voucher type.
+                    if (this.VoucherType != PMC_ServiceVoucherType)
+                    {
+                        Messages.SavedMessage();
+                    }
+
                     if (cbxPrintAfterSave.Checked)
                     {
                         if (spSettings.SettingsStatusCheck("Printer") == "Dot Matrix")
@@ -819,6 +956,16 @@ namespace Open_Miracle
                 {
                     Messages.InformationMessage("Discount is greater than total amount");
                     txtDiscount.Focus();
+                }
+                else if (cmbParticulars.SelectedIndex < 0)
+                {
+                    Messages.InformationMessage("Select valid particulars.");
+                    cmbParticulars.Focus();
+                }
+                else if (string.IsNullOrEmpty(txtQuantity.Text))
+                {
+                    Messages.InformationMessage("Enter valid quantity.");
+                    txtQuantity.Focus();
                 }
                 else
                 {
@@ -1588,6 +1735,7 @@ namespace Open_Miracle
             }
         }
         #endregion
+        
         #region Events
         /// <summary>
         /// On remove linkbutton click
@@ -1764,6 +1912,17 @@ namespace Open_Miracle
         {
             try
             {
+                if (this.VoucherType == PMC_ServiceVoucherType)
+                {
+                    panelServiceVoucherDefault.Visible = false;
+                    panelPMCVoucherType.Visible = true;
+                }
+                else
+                {
+                    panelServiceVoucherDefault.Visible = true;
+                    panelPMCVoucherType.Visible = false;
+                }
+                
                 Clear();
             }
             catch (Exception ex)
@@ -1879,7 +2038,7 @@ namespace Open_Miracle
                 ServiceSP spService = new ServiceSP();
                 ServiceInfo infoService = new ServiceInfo();
                 decimal decRate = 0;
-                
+
                 if (e.RowIndex != -1 && e.ColumnIndex != -1)
                 {
                     SerialNo();
@@ -2340,7 +2499,47 @@ namespace Open_Miracle
                 formMDI.infoError.ErrorString = "SV63:" + ex.Message;
             }
         }
+
+
+        private void txtQuantity_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && (e.KeyChar != '.'))
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void txtAmount_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar) && (e.KeyChar != '.'))
+            {
+                e.Handled = true;
+            }
+        }
+
+        private void txtQuantity_Leave(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(txtQuantity.Text))
+            {
+                return;
+            }
+
+            ResetAmount();
+
+            AmountCalculation();
+        }
+
+        private void txtAmount_Leave(object sender, EventArgs e)
+        {
+            if (string.IsNullOrEmpty(txtAmount.Text))
+            {
+                return;
+            }
+
+            AmountCalculation();
+        }
         #endregion
+
         #region Navigation
         /// <summary>
         /// Enterkey and backspace navigation of txtVoucherDate
@@ -2880,8 +3079,20 @@ namespace Open_Miracle
             }
         }
         #endregion
+    }
 
-       
+    class Particulars
+    {
+        public decimal ServiceId { get; set; }
 
+        public decimal SerialNumber { get; set; }
+
+        public string ServiceName { get; set; }
+
+        public decimal CategoryId { get; set; }
+
+        public decimal Rate { get; set; }
+
+        public string Narration { get; set; }
     }
 }

@@ -73,6 +73,13 @@ namespace Open_Miracle
                 {
                     base.Show();
                 }
+
+                //[HSS]: Added for automatic selection of PMC Voucher type.
+                if (cmbVoucherType.Items != null && cmbVoucherType.Items.Count > 0)
+                {
+                    cmbVoucherType.SelectedIndex = 1;
+                    btnGo.Focus();
+                }
             }
             catch (Exception ex)
             {
@@ -725,7 +732,5 @@ namespace Open_Miracle
         }
 
         #endregion
-
-
     }
 }

@@ -39,48 +39,52 @@ namespace Open_Miracle
         public DBConnection()
         {
             SqlConnection.ClearAllPools();
-            //string path = string.Empty;
-            //if (PublicVariables._decCurrentCompanyId > 0)
-            //{
-            //    path = ApplicationPath + "\\Data\\" + PublicVariables._decCurrentCompanyId + "\\DBOpenmiracle.mdf";
-            //}
-            //else if (PublicVariables._decCurrentCompanyId == 0)
-            //{
-            //    path = ApplicationPath + "\\Data\\DBOpenmiracle.mdf";
-            //}
-            //else
-            //{
-            //    path = ApplicationPath + "\\Data\\COMP\\DBOpenmiracle.mdf";
-            //}
 
-            //if (serverName != null)
-            //{
-            //    if (isSqlServer != null)
-            //    {
-            //        if (userId == null || password == null)
-            //        {
-            //            sqlcon = new SqlConnection(@"Data Source=" + serverName + ";AttachDbFilename=" + path + ";Integrated Security=True;Connect Timeout=120");
-            //        }
-            //        else
-            //        {
-            //            sqlcon = new SqlConnection(@"Data Source=" + serverName + ";AttachDbFilename=" + path + ";user id='" + userId + "';password='" + password + "'; Connect Timeout=120");
-            //        }
-            //    }
-            //    else
-            //    {
-            //        if (userId == null || password == null)
-            //        {
-            //            sqlcon = new SqlConnection(@"Data Source=" + serverName + ";AttachDbFilename=" + path + ";Integrated Security=True;Connect Timeout=120;User Instance=True");
-            //        }
-            //        else
-            //        {
-            //            sqlcon = new SqlConnection(@"Data Source=" + serverName + ";AttachDbFilename=" + path + ";user id='" + userId + "';password='" + password + "'; Connect Timeout=120; User Instance=False");
-            //        }
-            //    }
+            string path = string.Empty;
+            if (PublicVariables._decCurrentCompanyId > 0)
+            {
+                path = ApplicationPath + "\\Data\\" + PublicVariables._decCurrentCompanyId + "\\DBOpenmiracle.mdf";
+            }
+            else if (PublicVariables._decCurrentCompanyId == 0)
+            {
+                path = ApplicationPath + "\\Data\\DBOpenmiracle.mdf";
+            }
+            else
+            {
+                path = ApplicationPath + "\\Data\\COMP\\DBOpenmiracle.mdf";
+            }
+
+            if (serverName != null)
+            {
+                if (isSqlServer != null)
+                {
+                    if (userId == null || password == null)
+                    {
+                        sqlcon = new SqlConnection(@"Data Source=" + serverName + ";AttachDbFilename=" + path + ";Integrated Security=True;Connect Timeout=120");
+                    }
+                    else
+                    {
+                        sqlcon = new SqlConnection(@"Data Source=" + serverName + ";AttachDbFilename=" + path + ";user id='" + userId + "';password='" + password + "'; Connect Timeout=120");
+                    }
+                }
+                else
+                {
+                    if (userId == null || password == null)
+                    {
+                        sqlcon = new SqlConnection(@"Data Source=" + serverName + ";AttachDbFilename=" + path + ";Integrated Security=True;Connect Timeout=120;User Instance=True");
+                    }
+                    else
+                    {
+                        sqlcon = new SqlConnection(@"Data Source=" + serverName + ";AttachDbFilename=" + path + ";user id='" + userId + "';password='" + password + "'; Connect Timeout=120; User Instance=False");
+                    }
+                }
+
                 try
                 {
-                sqlcon = new SqlConnection("Server=10.160.108.103\\SQLEXPRESS;Database=SAPDB;User Id=sa; Password = Letmein;");
-                sqlcon.Open();
+                    //[HSS]: Debug Connection.
+                    //sqlcon = new SqlConnection("Server=10.160.108.103\\SQLEXPRESS;Database=SAPDB;User Id=sa; Password = Letmein;");
+
+                    sqlcon.Open();
                 }
                 catch (Exception ex)
                 {
@@ -88,6 +92,5 @@ namespace Open_Miracle
                 }
             }
         }
-
     }
-//}
+}
